@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Sanusi Michael</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="nav-logo">Sanusi Michael</h1>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </nav>
+
+  <section class="content">
+    <h2>About Me</h2>
+    <p>
+      I’m <strong>Sanusi Michael</strong>, a passionate <em>Embedded Systems Engineer</em> dedicated to designing innovative hardware and firmware solutions.
+      My curiosity drives me to explore new technologies, from microcontrollers to automation systems.
+    </p>
+    <p>
+      I enjoy creating practical, real-world applications that bridge electronics and programming.
+      When not experimenting with circuits, you’ll find me learning new tools or collaborating with others on engineering projects.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sanusi Michael. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+</body>
+</html>

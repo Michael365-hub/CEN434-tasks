@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills | Sanusi Michael</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="nav-logo">Sanusi Michael</h1>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html" class="active">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </nav>
+
+  <section class="content">
+    <h2>Technical Skills</h2>
+    <ul class="skills-list">
+      <li>C Programming & Embedded C</li>
+      <li>Microcontroller Programming (Arduino, PIC)</li>
+      <li>Circuit Design & Simulation (Proteus, Multisim)</li>
+      <li>Hardware Troubleshooting & Soldering</li>
+      <li>Embedded System Design Fundamentals</li>
+      <li>Basic HTML & Web Interface Design</li>
+      <li>Collaborative Teamwork & Analytical Thinking</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sanusi Michael. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+</body>
+</html>

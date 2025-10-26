@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Sanusi Michael</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="nav-logo">Sanusi Michael</h1>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </nav>
+
+  <section class="content">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for collaboration, project inquiries, or general questions.</p>
+    <p><strong>Email:</strong> <a href="mailto:sanusimichael100@gmail.com">sanusimichael100@gmail.com</a></p>
+    <p><strong>Phone:</strong> 08036665686</p>
+    <p><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/sanusimichael</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sanusi Michael. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Sanusi Michael</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="nav-logo">Sanusi Michael</h1>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </nav>
+
+  <section class="content">
+    <h2>Projects</h2>
+    <article>
+      <h3>DC Regulated Power Supply</h3>
+      <p>Designed and built a stable DC power source using rectifiers, filters, and voltage regulators to power various electronic prototypes.</p>
+    </article>
+
+    <article>
+      <h3>Traffic Light System Using 4017</h3>
+      <p>Developed a traffic simulation circuit using a CD4017 decade counter and 555 timer for timing control and sequencing.</p>
+    </article>
+
+    <article>
+      <h3>Smart Temperature Monitor</h3>
+      <p>Created a microcontroller-based system that monitors temperature via sensors, displays readings on an LCD, and activates a cooling fan automatically.</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sanusi Michael. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+</body>
+</html>

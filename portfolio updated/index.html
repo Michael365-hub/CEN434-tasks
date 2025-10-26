@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanusi Michael | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="nav-logo">Sanusi Michael</h1>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </nav>
+
+  <header class="hero">
+    <img src="photo_2025-10-24_10-02-59.jpg" alt="Sanusi Michael" class="profile-pic" width="130" height="130" />
+    <h1>Sanusi Michael</h1>
+    <h2>Embedded Systems Engineer</h2>
+    <p>Exploring the intersection of hardware and code to create intelligent, efficient systems.</p>
+  </header>
+
+  <footer>
+    <p>&copy; 2025 Sanusi Michael. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+</body>
+</html>
